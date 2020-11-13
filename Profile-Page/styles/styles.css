@@ -1,0 +1,130 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+  .navigation-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+  }
+  .logo {
+    margin-left: 5%;
+  }
+  .logo-image {
+    width: 20vh;
+    height: auto;
+    display: block;
+  }
+  .navigation {
+    margin-right: 5%;
+    font-size: 3vh;
+  }
+  .navigation ul {
+    padding: 0px;
+  }
+  .nav-item {
+    display: inline;
+    padding: 3vw;
+    margin: 5px;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-link:hover{
+    color: #17a7f5;
+    
+  }
+  
+  .banner-container {
+    height: auto;
+    text-align: center;
+    font-size: 2.5vw;
+    margin: 0px 10%;
+  }
+  .banner {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../images/image-1.jpg");
+    background-size: cover;
+  }
+  .banner-heading {
+    font-size: 4rem;
+    padding-top: 10vh;
+  }
+  .banner-sub-heading {
+    font-size: 2.5rem;
+    padding-bottom: 10vh;
+  }
+
+  .main-section {
+    text-align: justify;
+    padding: 0px 10vh;
+    margin: 5%;
+    margin-top: 2vh;
+  }
+
+  .section-content {
+    padding: 10vh 0px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10vh 100px;
+  }
+
+  .social-media a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .social-media i{
+    text-align: space-between;
+    padding: 3vw;
+  }
+  
+  .top-icon {
+    position: fixed;
+    bottom: 5vw;
+    right: 2vw;
+    font-size: 1.5vw;
+    background-color: #45bafa;
+    border: 1px solid black;
+    padding: 1vw;
+    border-radius: 20vw;
+  }
+  .top-icon a {
+    text-decoration: none;
+    color: black;
+    /* scroll-behavior: smooth; */
+  }
+
+  .top-icon i{
+    text-align: justify;
+  }
